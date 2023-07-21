@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="up09rw4n">
+  <resources>
+    <component id="hig70" name="ConnectWallet.xml" path="/" exported="true"/>
+    <image id="joe61" name="appbg.jpg" path="/images/"/>
+    <image id="joe63" name="连接钱包0003.png" path="/images/" disableTrim="true"/>
+    <image id="joe64" name="连接钱包0002.png" path="/images/" disableTrim="true"/>
+    <image id="joe65" name="连接钱包0001.png" path="/images/" disableTrim="true"/>
+    <component id="joe66" name="Button1.xml" path="/" exported="true"/>
+    <component id="joe6m" name="SystemPrompt.xml" path="/" exported="true"/>
+    <image id="joe6n" name="SystemPromptSkin.png" path="/images/"/>
+    <image id="joe6o" name="关闭按钮0001.png" path="/images/"/>
+    <image id="joe6p" name="关闭按钮0002.png" path="/images/"/>
+    <image id="joe6q" name="关闭按钮0003.png" path="/images/"/>
+    <component id="joe6r" name="close.xml" path="/" exported="true"/>
+    <image id="joe6s" name="确定按钮0001.png" path="/images/"/>
+    <image id="joe6t" name="确定按钮0002.png" path="/images/"/>
+    <image id="joe6u" name="确定按钮0003.png" path="/images/"/>
+    <image id="joe6v" name="取消按钮0001.png" path="/images/"/>
+    <image id="joe6w" name="取消按钮0002.png" path="/images/"/>
+    <image id="joe6x" name="取消按钮0003.png" path="/images/"/>
+    <component id="joe6y" name="confirm.xml" path="/" exported="true"/>
+    <component id="joe6z" name="cancel.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

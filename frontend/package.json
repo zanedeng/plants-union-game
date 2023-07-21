@@ -11,9 +11,7 @@
   "bugs": {
     "url": "https://github.com/zanedeng/plants-union-game/issues"
   },
-  "contributors": [
-
-  ],
+  "contributors": [],
   "devDependencies": {
     "@babel/core": "^7.17.9",
     "@babel/preset-env": "^7.16.0",
@@ -73,5 +71,8 @@
     "stats": "webpack --config config/webpack.prod.config.js --mode=production --json > dist/stats.json && webpack-bundle-analyzer dist/stats.json"
   },
   "target": "web",
-  "dependencies": {}
+  "dependencies": {
+    "eventemitter3": "^5.0.1",
+    "pixi.js": "^7.2.4"
+  }
 }

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ap3341hk">
+  <resources>
+    <component id="joe67" name="loading.xml" path="/" exported="true"/>
+    <image id="joe6g" name="a.png" path="/images/"/>
+    <image id="joe6f" name="d.png" path="/images/"/>
+    <image id="joe6b" name="dian.png" path="/images/"/>
+    <image id="joe6a" name="dian2.png" path="/images/"/>
+    <image id="joe69" name="dian3.png" path="/images/"/>
+    <image id="joe6c" name="g.png" path="/images/"/>
+    <image id="joe6e" name="i.png" path="/images/"/>
+    <image id="joe6i" name="l.png" path="/images/"/>
+    <image id="joe6d" name="n.png" path="/images/"/>
+    <image id="joe6h" name="o.png" path="/images/"/>
+    <image id="joe6j" name="进度条1.png" path="/images/" scale="9grid" scale9grid="14,4,220,8"/>
+    <image id="joe68" name="进度条2.png" path="/images/"/>
+    <component id="joe6l" name="loadingAni.xml" path="/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

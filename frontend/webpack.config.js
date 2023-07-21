@@ -110,26 +110,34 @@ module.exports = {
       verbose: true,
       cleanOnceBeforeBuildPatterns: ['**/*', '!stats.json'],
     }),
-    // new CopyWebpackPlugin({
-    //   patterns: [
-    //     {
-    //       from: path.resolve(environment.paths.source, 'images', 'content'),
-    //       to: path.resolve(environment.paths.output, 'images', 'content'),
-    //       toType: 'dir',
-    //       globOptions: {
-    //         ignore: ['*.DS_Store', 'Thumbs.db'],
-    //       },
-    //     },
-    //     {
-    //       from: path.resolve(environment.paths.source, 'videos'),
-    //       to: path.resolve(environment.paths.output, 'videos'),
-    //       toType: 'dir',
-    //       globOptions: {
-    //         ignore: ['*.DS_Store', 'Thumbs.db'],
-    //       },
-    //     },
-    //   ],
-    // }),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: path.resolve(environment.paths.source, 'libs'),
+          to: path.resolve(environment.paths.output, 'libs'),
+          toType: 'dir',
+          globOptions: {
+            ignore: ['*.DS_Store', 'Thumbs.db'],
+          },
+        },
+        {
+          from: path.resolve(environment.paths.source, 'fgui'),
+          to: path.resolve(environment.paths.output, 'fgui'),
+          toType: 'dir',
+          globOptions: {
+            ignore: ['*.DS_Store', 'Thumbs.db'],
+          },
+        },
+        {
+          from: path.resolve(environment.paths.source, 'images'),
+          to: path.resolve(environment.paths.output, 'images'),
+          toType: 'dir',
+          globOptions: {
+            ignore: ['*.DS_Store', 'Thumbs.db'],
+          },
+        },
+      ],
+    }),
   ].concat(htmlPluginEntries),
   target: 'web',
 };

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="220,58">
+  <displayList>
+    <image id="n3_joe6" name="n3" src="joe6i" fileName="images/l.png" xy="0,1"/>
+    <image id="n4_joe6" name="n4" src="joe6h" fileName="images/o.png" xy="24,0"/>
+    <image id="n5_joe6" name="n5" src="joe6g" fileName="images/a.png" xy="47,1"/>
+    <image id="n6_joe6" name="n6" src="joe6f" fileName="images/d.png" xy="70,0"/>
+    <image id="n7_joe6" name="n7" src="joe6e" fileName="images/i.png" xy="97,1"/>
+    <image id="n8_joe6" name="n8" src="joe6d" fileName="images/n.png" xy="120,1"/>
+    <image id="n9_joe6" name="n9" src="joe6c" fileName="images/g.png" xy="144,0"/>
+    <image id="n10_joe6" name="n10" src="joe6b" fileName="images/dian.png" xy="169,20"/>
+    <image id="n11_joe6" name="n11" src="joe6a" fileName="images/dian2.png" xy="187,20"/>
+    <image id="n12_joe6" name="n12" src="joe69" fileName="images/dian3.png" xy="205,20"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n3_joe6" tween="true" startValue="0,1" endValue="0,-10" duration="6"/>
+    <item time="4" type="XY" target="n4_joe6" tween="true" startValue="24,0" endValue="24,-10" duration="6"/>
+    <item time="6" type="XY" target="n3_joe6" tween="true" startValue="0,-10" endValue="0,0" duration="8"/>
+    <item time="8" type="XY" target="n5_joe6" tween="true" startValue="47,1" endValue="47,-11" duration="6"/>
+    <item time="10" type="XY" target="n4_joe6" tween="true" startValue="24,-10" endValue="24,0" duration="9"/>
+    <item time="12" type="XY" target="n6_joe6" tween="true" startValue="70,0" endValue="70,-10" duration="6"/>
+    <item time="14" type="XY" target="n5_joe6" tween="true" startValue="47,-11" endValue="47,0" duration="10"/>
+    <item time="16" type="XY" target="n7_joe6" tween="true" startValue="97,1" endValue="97,-10" duration="6"/>
+    <item time="18" type="XY" target="n6_joe6" tween="true" startValue="70,-10" endValue="70,0" duration="11"/>
+    <item time="20" type="XY" target="n8_joe6" tween="true" startValue="120,1" endValue="120,-10" duration="7"/>
+    <item time="22" type="XY" target="n7_joe6" tween="true" startValue="97,-10" endValue="97,0" duration="12"/>
+    <item time="24" type="XY" target="n9_joe6" tween="true" startValue="144,0" endValue="144,-11" duration="8"/>
+    <item time="27" type="XY" target="n8_joe6" tween="true" startValue="120,-10" endValue="120,0" duration="13"/>
+    <item time="29" type="XY" target="n10_joe6" tween="true" startValue="169,20" endValue="169,7" duration="8"/>
+    <item time="32" type="XY" target="n9_joe6" tween="true" startValue="144,-11" endValue="144,0" duration="14"/>
+    <item time="33" type="XY" target="n11_joe6" tween="true" startValue="187,20" endValue="187,10" duration="9"/>
+    <item time="37" type="XY" target="n10_joe6" tween="true" startValue="169,7" endValue="169,20" duration="16"/>
+    <item time="39" type="XY" target="n12_joe6" tween="true" startValue="205,20" endValue="205,9" duration="9"/>
+    <item time="42" type="XY" target="n11_joe6" tween="true" startValue="187,10" endValue="187,20" duration="16"/>
+    <item time="48" type="XY" target="n12_joe6" tween="true" startValue="205,9" endValue="205,20" duration="16"/>
+  </transition>
+</component>

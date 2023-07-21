@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="760,500">
+  <displayList>
+    <graph id="n14_joe6" name="n14" xy="0,0" size="760,500" type="rect" lineSize="0" fillColor="#99000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n3_joe6" name="n3" src="joe6l" fileName="loadingAni.xml" xy="278,176">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n0_joe6" name="n0" src="joe68" fileName="images/进度条2.png" xy="222,209">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n13_joe6" name="bar" src="joe6j" fileName="images/进度条1.png" xy="254,230" size="7,16"/>
+  </displayList>
+</component>

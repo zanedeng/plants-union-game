@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="760,500">
+  <displayList>
+    <image id="n0_joe6" name="n0" src="joe6n" fileName="images/SystemPromptSkin.png" xy="192,87" size="375,310"/>
+    <component id="n1_joe6" name="closeBtn" src="joe6r" fileName="close.xml" xy="522,135"/>
+    <text id="n2_joe6" name="msg" xy="222,177" size="305,126" fontSize="16" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="系统提示文字"/>
+    <component id="n3_joe6" name="confirmBtn" src="joe6y" fileName="confirm.xml" xy="385,325"/>
+    <component id="n4_joe6" name="cancelBtn" src="joe6z" fileName="cancel.xml" xy="282,325"/>
+  </displayList>
+</component>

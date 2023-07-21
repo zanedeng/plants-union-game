@@ -5,10 +5,46 @@
     <title>植物联盟</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name='viewport' content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no'/>
     <meta name="author" content="">
+    <style>
+      html, body{margin: 0; padding: 0; overflow: hidden; height: 100%; }
+      body {
+        background: url('images/background.jpg');
+      }
+      #app {
+        position:absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 760px;
+        height: 500px;
+        margin: auto;
+      }
+
+      #app::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin: -30px -18px;
+        background: url(images/bg.png);
+        background-size: cover;
+        z-index: 9999;
+        pointer-events: none;
+      }
+      #app canvas { transform: translateZ(0); }
+    </style>
+    <script src="libs/pixi.min.js"></script>
+    <script src="libs/tweenjs.min.js"></script>
+    <script src="libs/fairygui.min.js"></script>
+    <script src="libs/rawinflate.min.js"></script>
+    <script src="libs/stats.min.js"></script>
   </head>
   <body>
-
+    <div id="app"></div>
   </body>
 </html>
