@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="760,500">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n16_joe6" name="background" xy="0,0" size="760,500" url="ui://awjgfsrljoe61" vAlign="middle" fill="scaleNoBorder" clearOnPublish="true"/>
+    <component id="n1_joe6" name="backBtn" src="joe68" fileName="components/backBtn.xml" xy="673,23" size="51,60" aspect="true">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n2_joe6" name="n2" src="joe69" fileName="components/homeBtn.xml" xy="45,391" size="59,70" aspect="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <component id="n4_joe6" name="hole9" src="joe6a" fileName="components/hole.xml" xy="231,-12" aspect="true">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n5_joe6" name="hole10" src="joe6a" fileName="components/hole.xml" xy="355,-13">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n6_joe6" name="hole11" src="joe6a" fileName="components/hole.xml" xy="469,-15">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n7_joe6" name="hole6" src="joe6a" fileName="components/hole.xml" xy="159,66">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n8_joe6" name="hole7" src="joe6a" fileName="components/hole.xml" xy="307,71">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n9_joe6" name="hole8" src="joe6a" fileName="components/hole.xml" xy="424,67">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n10_joe6" name="hole3" src="joe6a" fileName="components/hole.xml" xy="246,143">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n11_joe6" name="hole4" src="joe6a" fileName="components/hole.xml" xy="362,148">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n12_joe6" name="hole5" src="joe6a" fileName="components/hole.xml" xy="480,141">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n13_joe6" name="hole0" src="joe6a" fileName="components/hole.xml" xy="178,209">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n14_joe6" name="hole1" src="joe6a" fileName="components/hole.xml" xy="303,232">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n15_joe6" name="hole2" src="joe6a" fileName="components/hole.xml" xy="425,222">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n17_joe6" name="nextHuntBtn" src="joe6j" fileName="components/nextHuntBtn.xml" xy="582,135">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n18_joe6" name="nextPageBtn" src="joe6s" fileName="components/huntnextpageBtn.xml" xy="700,197">
+      <relation target="" sidePair="middle-middle,right-right"/>
+    </component>
+    <component id="n19_joe6" name="prevPageBtn" src="joe6t" fileName="components/huntprevpageBtn.xml" xy="15,197">
+      <relation target="" sidePair="middle-middle,left-left"/>
+    </component>
+  </displayList>
+</component>

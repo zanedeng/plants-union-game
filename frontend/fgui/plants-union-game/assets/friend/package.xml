@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="aueqlm9w">
+  <resources>
+    <component id="joe60" name="main.xml" path="/" exported="true"/>
+    <image id="joe61" name="FriendSkin.png" path="/images/" scale="9grid" scale9grid="86,73,17,202"/>
+    <component id="joe62" name="friendList.xml" path="/components/"/>
+    <image id="joe66" name="switchMc0002.png" path="/images/"/>
+    <component id="joe67" name="switchBtn.xml" path="/components/"/>
+    <image id="joe68" name="搜索0003.png" path="/images/"/>
+    <image id="joe69" name="搜索0002.png" path="/images/"/>
+    <image id="joe6a" name="搜索0001.png" path="/images/"/>
+    <component id="joe6b" name="searchBtn.xml" path="/components/"/>
+    <image id="joe6c" name="TAB20003.png" path="/images/"/>
+    <image id="joe6d" name="TAB20002.png" path="/images/"/>
+    <image id="joe6e" name="TAB20001.png" path="/images/"/>
+    <image id="joe6f" name="TAB10003.png" path="/images/"/>
+    <image id="joe6g" name="TAB10002.png" path="/images/"/>
+    <image id="joe6h" name="TAB10001.png" path="/images/"/>
+    <image id="joe6i" name="TAB10007.png" path="/images/"/>
+    <image id="joe6j" name="TAB20007.png" path="/images/"/>
+    <component id="joe6k" name="Button1.xml" path="/components/"/>
+    <component id="joe6l" name="Button2.xml" path="/components/"/>
+    <image id="joe6m" name="preFriendPageBtn0003.png" path="/images/"/>
+    <image id="joe6n" name="preFriendPageBtn0002.png" path="/images/"/>
+    <image id="joe6o" name="preFriendPageBtn0001.png" path="/images/"/>
+    <image id="joe6p" name="nextFriendPageBtn0003.png" path="/images/"/>
+    <image id="joe6q" name="nextFriendPageBtn0002.png" path="/images/"/>
+    <image id="joe6r" name="nextFriendPageBtn0001.png" path="/images/"/>
+    <component id="joe6s" name="Button3.xml" path="/components/"/>
+    <component id="joe6t" name="Button4.xml" path="/components/"/>
+    <image id="joe6u" name="addFriendPlaneBtn0003.png" path="/images/"/>
+    <image id="joe6v" name="addFriendPlaneBtn0002.png" path="/images/"/>
+    <image id="joe6w" name="addFriendPlaneBtn0001.png" path="/images/"/>
+    <image id="joe6x" name="邀请盟友0003.png" path="/images/"/>
+    <image id="joe6y" name="邀请盟友0002.png" path="/images/"/>
+    <image id="joe6z" name="邀请盟友0001.png" path="/images/"/>
+    <component id="joe610" name="Button5.xml" path="/components/"/>
+    <component id="joe611" name="Button6.xml" path="/components/"/>
+    <image id="joe613" name="friendItemBg0001.png" path="/images/"/>
+    <image id="joe614" name="friendItemBg0002.png" path="/images/"/>
+    <image id="joe615" name="friendItemBg0003.png" path="/images/"/>
+    <image id="joe616" name="皇冠.png" path="/images/"/>
+    <image id="joe617" name="levelNumber0010.png" path="/images/"/>
+    <image id="joe618" name="levelNumber0009.png" path="/images/"/>
+    <image id="joe619" name="levelNumber0008.png" path="/images/"/>
+    <image id="joe61a" name="levelNumber0007.png" path="/images/"/>
+    <image id="joe61b" name="levelNumber0006.png" path="/images/"/>
+    <image id="joe61c" name="levelNumber0005.png" path="/images/"/>
+    <image id="joe61d" name="levelNumber0001.png" path="/images/"/>
+    <image id="joe61e" name="levelNumber0002.png" path="/images/"/>
+    <image id="joe61f" name="levelNumber0003.png" path="/images/"/>
+    <image id="joe61g" name="levelNumber0004.png" path="/images/"/>
+    <component id="joe61i" name="friendListItem.xml" path="/" exported="true"/>
+    <component id="joe61j" name="num.xml" path="/components/"/>
+    <image id="joe61k" name="收获0001.png" path="/images/"/>
+    <image id="joe61l" name="收获0002.png" path="/images/"/>
+    <image id="joe61m" name="收获0003.png" path="/images/"/>
+    <image id="joe61n" name="照顾0001.png" path="/images/"/>
+    <image id="joe61o" name="照顾0002.png" path="/images/"/>
+    <image id="joe61p" name="照顾0003.png" path="/images/"/>
+    <component id="joe61q" name="Button7.xml" path="/components/"/>
+    <component id="joe61r" name="Button8.xml" path="/components/"/>
+    <image id="joe61s" name="领奖按钮0001.png" path="/images/"/>
+    <image id="joe61t" name="领奖按钮0002.png" path="/images/"/>
+    <image id="joe61u" name="领奖按钮0003.png" path="/images/"/>
+    <component id="joe61v" name="Button9.xml" path="/components/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

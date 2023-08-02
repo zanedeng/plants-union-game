@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="70,85" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="2"/>
+  <displayList>
+    <image id="n0_joe6" name="n0" src="joe63" fileName="images/任务按钮0001.png" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_joe6" name="n1" src="joe61" fileName="images/任务按钮0003.png" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_joe6" name="n2" src="joe62" fileName="images/任务按钮0002.png" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>

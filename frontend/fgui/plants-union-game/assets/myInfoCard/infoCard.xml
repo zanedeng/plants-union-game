@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="760,500" opaque="false">
+  <displayList>
+    <image id="n0_joe6" name="n0" src="joe61" fileName="images/MyInfoCardSkin.png" xy="8,-4"/>
+    <loader id="n1_joe6" name="avatar" xy="27,21" size="60,60" url="ui://atr6po79joe618" fill="scaleFree"/>
+    <text id="n2_joe6" name="nickname" xy="142,21" size="105,24" fontSize="16" color="#fdc423" autoSize="none" text=""/>
+    <text id="n3_joe6" name="level" xy="29,88" size="53,24" fontSize="16" color="#fdc423" align="center" autoSize="none" text="1" input="true"/>
+    <loader id="n4_joe6" name="huntNum" xy="311,21" size="83,22" url="ui://up09rw4njoe61c" fill="scale" autoSize="true" clearOnPublish="true"/>
+    <loader id="n5_joe6" name="coinNum" xy="142,56" size="104,22" url="ui://up09rw4njoe61c" clearOnPublish="true"/>
+    <loader id="n6_joe6" name="couponNum" xy="313,55" size="114,22" url="ui://up09rw4njoe61c" clearOnPublish="true"/>
+    <loader id="n7_joe6" name="exp" xy="103,92" size="142,18" url="ui://up09rw4njoe61h" clearOnPublish="true"/>
+  </displayList>
+</component>

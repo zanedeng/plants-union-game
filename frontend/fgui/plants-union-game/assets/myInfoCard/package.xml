@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ajpjbx53">
+  <resources>
+    <component id="joe60" name="infoCard.xml" path="/" exported="true"/>
+    <image id="joe61" name="MyInfoCardSkin.png" path="/images/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

@@ -1,3 +1,5 @@
+import BaseObject from "../core/BaseObject";
+
 const modelDict = new WeakMap();
 
 /**
@@ -14,15 +16,17 @@ export default class Model {
     if (Model.retrieveModel(this.constructor)) {
       throw new Error(`名为[${this.constructor.name}] 的 Model 实例已经存在!`);
     }
-    this.data = {}
+    this._data = {}
     if (data) {
       Object.keys(data).forEach((key) => {
-        this.data[key] = data[key];
+        this._data[key] = data[key];
       })
     }
     modelDict.set(this.constructor, this)
     this.onRegister()
   }
+
+  get data() { return this._data; }
 
   /**
    * 在Model注册时调用的函数。
@@ -32,7 +36,9 @@ export default class Model {
   /**
    * 在Model移除时调用的函数。
    */
-  onRemove() { }
+  onRemove() {
+    this._data = null;
+  }
 
   /**
    * 发送事件给视图。

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="760,500">
+  <displayList>
+    <image id="n0_joe6" name="n0" src="joe6c" fileName="images/创建角色背景图.png" xy="0,-60" size="760,570" aspect="true" visible="false"/>
+    <text id="n2_joe6" name="nickname" xy="301,137" size="183,24" visible="false" fontSize="16" autoSize="none" text="" input="true" prompt="请输入..."/>
+    <component id="n4_joe6" name="nextBtn" src="joe6f" fileName="components/Button2.xml" xy="474,200" size="29,90" aspect="true" visible="false"/>
+    <component id="n5_joe6" name="preBtn" src="joe6g" fileName="components/Button3.xml" xy="259,200" size="29,90" aspect="true" visible="false"/>
+    <component id="n6_joe6" name="startBtn" src="joe6h" fileName="components/Button4.xml" xy="323,303" size="114,40" aspect="true" visible="false"/>
+    <loader id="n8_joe6" name="avatar" xy="342,205" size="80,80" aspect="true" url="ui://atr6po79joe618" fill="scale"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n0_joe6" tween="true" startValue="0.01" endValue="1" duration="12"/>
+    <item time="0" type="Visible" target="n0_joe6" value="true"/>
+    <item time="0" type="Visible" target="n2_joe6" value="false"/>
+    <item time="0" type="Visible" target="n4_joe6" value="false"/>
+    <item time="0" type="Visible" target="n5_joe6" value="false"/>
+    <item time="0" type="Visible" target="n6_joe6" value="false"/>
+    <item time="6" type="Visible" target="n0_joe6" value="true"/>
+    <item time="6" type="Visible" target="n2_joe6" value="true"/>
+    <item time="6" type="Visible" target="n4_joe6" value="true"/>
+    <item time="6" type="Visible" target="n5_joe6" value="true"/>
+    <item time="6" type="Visible" target="n6_joe6" value="true"/>
+    <item time="12" type="Visible" target="n0_joe6" value="true"/>
+    <item time="12" type="Visible" target="n2_joe6" value="true"/>
+    <item time="12" type="Visible" target="n4_joe6" value="true"/>
+    <item time="12" type="Visible" target="n5_joe6" value="true"/>
+    <item time="12" type="Visible" target="n6_joe6" value="true"/>
+  </transition>
+</component>

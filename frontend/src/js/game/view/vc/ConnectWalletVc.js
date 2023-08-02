@@ -1,11 +1,9 @@
-import { PKG_NAME_MAIN } from "../../Constants";
 import BaseVc from "./BaseVc";
 
 export default class ConnectWalletVc extends BaseVc {
 
   constructor() {
     super();
-    this.btn = null;
   }
 
   onLoaded() {

@@ -1,0 +1,13 @@
+{
+    "contractsDir": "contracts-dbg",
+    "selectedContract": "Test1",
+    "autoOpen": true,
+    "breakOnEntry": false,
+    "symbols": {
+        "hardhat": {
+            "projectPaths": [
+                "/Users/zane/My/Projects/plants-union-game/backend"
+            ]
+        }
+    }
+}

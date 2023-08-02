@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="82,22">
+  <controller name="c1" pages="0,,1," selected="1"/>
+  <controller name="c2" pages="0,,1,,2,,3," selected="3"/>
+  <displayList>
+    <component id="n0_joe6" name="n0" src="joe610" fileName="numItem.xml" xy="3,2">
+      <gearDisplay controller="c1" pages="0,1"/>
+    </component>
+    <component id="n1_joe6" name="n1" src="joe610" fileName="numItem.xml" xy="17,2">
+      <gearDisplay controller="c1" pages="0,1"/>
+    </component>
+    <component id="n2_joe6" name="n2" src="joe610" fileName="numItem.xml" xy="31,2">
+      <gearDisplay controller="c1" pages="0,1"/>
+    </component>
+    <component id="n3_joe6" name="n3" src="joe610" fileName="numItem.xml" xy="45,2">
+      <gearDisplay controller="c1" pages="0,1"/>
+    </component>
+    <component id="n4_joe6" name="n4" src="joe610" fileName="numItem.xml" xy="59,2">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <image id="n7_joe6" name="n7" src="joe61b" fileName="images/wanMc.png" xy="60,4">
+      <gearDisplay controller="c1" pages="1"/>
+      <gearXY controller="c2" pages="1,2,3" values="31,4|44,4|60,4" default="19,4"/>
+      <relation target="" sidePair="middle-middle,right-right"/>
+    </image>
+  </displayList>
+</component>

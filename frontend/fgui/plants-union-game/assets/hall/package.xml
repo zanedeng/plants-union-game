@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="azfdjmgr">
+  <resources>
+    <image id="joe60" name="元件 3.png" path="/images/"/>
+    <image id="joe61" name="任务按钮0003.png" path="/images/"/>
+    <image id="joe62" name="任务按钮0002.png" path="/images/"/>
+    <image id="joe63" name="任务按钮0001.png" path="/images/"/>
+    <image id="joe64" name="AN图鉴0003.png" path="/images/"/>
+    <image id="joe65" name="AN图鉴0002.png" path="/images/"/>
+    <image id="joe66" name="AN图鉴0001.png" path="/images/"/>
+    <image id="joe67" name="商店按钮0003.png" path="/images/"/>
+    <image id="joe68" name="领地按钮0001.png" path="/images/"/>
+    <image id="joe69" name="商店按钮0002.png" path="/images/"/>
+    <image id="joe6a" name="合成按钮0003.png" path="/images/"/>
+    <image id="joe6b" name="合成按钮0002.png" path="/images/"/>
+    <image id="joe6c" name="合成按钮0001.png" path="/images/"/>
+    <image id="joe6d" name="创库按钮0003.png" path="/images/"/>
+    <image id="joe6e" name="创库按钮0002.png" path="/images/"/>
+    <image id="joe6f" name="创库按钮0001.png" path="/images/"/>
+    <image id="joe6g" name="排行版按钮0003.png" path="/images/"/>
+    <image id="joe6h" name="商店按钮0001.png" path="/images/"/>
+    <image id="joe6i" name="排行版按钮0002.png" path="/images/"/>
+    <image id="joe6j" name="领地按钮0002.png" path="/images/"/>
+    <image id="joe6k" name="花园按钮0001.png" path="/images/"/>
+    <image id="joe6l" name="镇守矿洞入口按钮0003.png" path="/images/"/>
+    <image id="joe6m" name="镇守矿洞入口按钮0002.png" path="/images/"/>
+    <image id="joe6n" name="镇守矿洞入口按钮0001.png" path="/images/"/>
+    <image id="joe6o" name="personalHunt.png" path="/images/"/>
+    <image id="joe6p" name="僵尸狩猎场按钮0003.png" path="/images/"/>
+    <image id="joe6q" name="僵尸狩猎场按钮0002.png" path="/images/"/>
+    <image id="joe6r" name="僵尸狩猎场按钮0001.png" path="/images/"/>
+    <image id="joe6s" name="领地按钮0003.png" path="/images/"/>
+    <image id="joe6t" name="nightHunt.png" path="/images/"/>
+    <image id="joe6u" name="AN联盟0002.png" path="/images/"/>
+    <image id="joe6v" name="AN联盟0001.png" path="/images/"/>
+    <image id="joe6w" name="斗技场按钮0003.png" path="/images/"/>
+    <image id="joe6x" name="斗技场按钮0002.png" path="/images/"/>
+    <image id="joe6y" name="斗技场按钮0001.png" path="/images/"/>
+    <image id="joe6z" name="花园按钮0003.png" path="/images/"/>
+    <image id="joe610" name="花园按钮0002.png" path="/images/"/>
+    <image id="joe611" name="AN联盟0003.png" path="/images/"/>
+    <image id="joe612" name="排行版按钮0001.png" path="/images/"/>
+    <component id="joe613" name="hall.xml" path="/" exported="true"/>
+    <component id="joe614" name="shopBtn.xml" path="/components/"/>
+    <component id="joe615" name="mixtureBtn.xml" path="/components/"/>
+    <component id="joe616" name="warehouseBtn.xml" path="/components/"/>
+    <component id="joe617" name="rankBtn.xml" path="/components/"/>
+    <component id="joe618" name="zombieHuntBtn.xml" path="/components/"/>
+    <component id="joe619" name="mineBtn.xml" path="/components/"/>
+    <component id="joe61a" name="allianceBtn.xml" path="/components/"/>
+    <component id="joe61b" name="battleBtn.xml" path="/components/"/>
+    <component id="joe61c" name="gardenBtn.xml" path="/components/"/>
+    <component id="joe61d" name="territoryBtn.xml" path="/components/"/>
+    <component id="joe61e" name="taskBtn.xml" path="/components/"/>
+    <component id="joe61f" name="manualBtn.xml" path="/components/"/>
+    <image id="joe61g" name="背景-白天.png" path="/images/"/>
+    <component id="joe631" name="nightHunt.xml" path="/components/"/>
+    <movieclip id="joe636" name="MovieClip1.jta" path="/components/"/>
+    <image id="joe63b" name="shanguang0001.png" path="/images/"/>
+    <image id="joe63c" name="shanguang0003.png" path="/images/"/>
+    <image id="joe63d" name="shanguang0005.png" path="/images/"/>
+    <image id="joe63e" name="shanguang0007.png" path="/images/"/>
+    <image id="joe63f" name="anhei0001.png" path="/images/"/>
+    <image id="joe63g" name="anhei0002.png" path="/images/"/>
+    <image id="joe63i" name="anhei0003.png" path="/images/"/>
+    <component id="joe63j" name="Button1.xml" path="/components/"/>
+    <component id="joe63k" name="personalHunt.xml" path="/components/"/>
+    <image id="joe63l" name="私人0001.png" path="/images/"/>
+    <image id="joe63m" name="私人0002.png" path="/images/"/>
+    <image id="joe63n" name="私人0003.png" path="/images/"/>
+    <component id="joe63o" name="Button2.xml" path="/components/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

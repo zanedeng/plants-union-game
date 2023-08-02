@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="760,500">
+  <displayList>
+    <loader id="n1_joe6" name="bg" xy="0,0" size="760,500" url="ui://azfdjmgrjoe61g" vAlign="middle" fill="scaleNoBorder" clearOnPublish="true"/>
+  </displayList>
+</component>

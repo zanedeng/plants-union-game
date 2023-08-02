@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="awjgfsrl">
+  <resources>
+    <component id="joe60" name="main.xml" path="/" exported="true"/>
+    <image id="joe61" name="个人与僵尸狩猎场背景.png" path="/images/"/>
+    <image id="joe62" name="backBtn0001.png" path="/images/"/>
+    <image id="joe63" name="backBtn0002.png" path="/images/"/>
+    <image id="joe64" name="backBtn0003.png" path="/images/"/>
+    <image id="joe65" name="回家0003.png" path="/images/"/>
+    <image id="joe66" name="回家0001.png" path="/images/"/>
+    <image id="joe67" name="回家0002.png" path="/images/"/>
+    <component id="joe68" name="backBtn.xml" path="/components/"/>
+    <component id="joe69" name="homeBtn.xml" path="/components/"/>
+    <component id="joe6a" name="hole.xml" path="/components/"/>
+    <image id="joe6b" name="初级狩猎场僵尸洞口.png" path="/images/"/>
+    <image id="joe6c" name="reclamation.png" path="/images/"/>
+    <image id="joe6d" name="继续挑战.png" path="/images/"/>
+    <image id="joe6f" name="保护状态.png" path="/images/"/>
+    <image id="joe6g" name="狩猎场里的入口按钮0003.png" path="/images/"/>
+    <image id="joe6h" name="狩猎场里的入口按钮0002.png" path="/images/"/>
+    <image id="joe6i" name="狩猎场里的入口按钮0001.png" path="/images/"/>
+    <component id="joe6j" name="nextHuntBtn.xml" path="/components/"/>
+    <image id="joe6k" name="huntnextpageBtn0001.png" path="/images/"/>
+    <image id="joe6l" name="huntnextpageBtn0002.png" path="/images/"/>
+    <image id="joe6m" name="huntnextpageBtn0003.png" path="/images/"/>
+    <image id="joe6n" name="huntnextpageBtn0004.png" path="/images/"/>
+    <image id="joe6o" name="huntprevpageBtn0001.png" path="/images/"/>
+    <image id="joe6p" name="huntprevpageBtn0002.png" path="/images/"/>
+    <image id="joe6q" name="huntprevpageBtn0003.png" path="/images/"/>
+    <image id="joe6r" name="huntprevpageBtn0004.png" path="/images/"/>
+    <component id="joe6s" name="huntnextpageBtn.xml" path="/components/"/>
+    <component id="joe6t" name="huntprevpageBtn.xml" path="/components/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

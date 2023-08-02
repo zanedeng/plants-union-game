@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="8,10">
+  <controller name="c1" pages="0,,1,,2,,3,,4,,5,,6,,7,,8,,9," selected="0"/>
+  <displayList>
+    <image id="n0_joe6" name="n0" src="joe61d" fileName="images/levelNumber0001.png" xy="0,0">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n1_joe6" name="n1" src="joe61e" fileName="images/levelNumber0002.png" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n2_joe6" name="n2" src="joe61f" fileName="images/levelNumber0003.png" xy="0,0">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <image id="n3_joe6" name="n3" src="joe61g" fileName="images/levelNumber0004.png" xy="0,0">
+      <gearDisplay controller="c1" pages="3"/>
+    </image>
+    <image id="n4_joe6" name="n4" src="joe61c" fileName="images/levelNumber0005.png" xy="0,0">
+      <gearDisplay controller="c1" pages="4"/>
+    </image>
+    <image id="n5_joe6" name="n5" src="joe61b" fileName="images/levelNumber0006.png" xy="0,0">
+      <gearDisplay controller="c1" pages="5"/>
+    </image>
+    <image id="n6_joe6" name="n6" src="joe61a" fileName="images/levelNumber0007.png" xy="0,0">
+      <gearDisplay controller="c1" pages="6"/>
+    </image>
+    <image id="n7_joe6" name="n7" src="joe619" fileName="images/levelNumber0008.png" xy="0,0">
+      <gearDisplay controller="c1" pages="7"/>
+    </image>
+    <image id="n8_joe6" name="n8" src="joe618" fileName="images/levelNumber0009.png" xy="0,0">
+      <gearDisplay controller="c1" pages="8"/>
+    </image>
+    <image id="n9_joe6" name="n9" src="joe617" fileName="images/levelNumber0010.png" xy="0,0">
+      <gearDisplay controller="c1" pages="9"/>
+    </image>
+  </displayList>
+</component>

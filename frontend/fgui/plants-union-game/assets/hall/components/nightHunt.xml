@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="270,70">
+  <controller name="c1" pages="0,,1," selected="1"/>
+  <displayList>
+    <image id="n0_joe6" name="n0" src="joe6t" fileName="images/nightHunt.png" xy="0,0">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n3_joe6" name="n3" src="joe63g" fileName="images/anhei0002.png" xy="0,0" size="268,70" aspect="true" visible="false">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <movieclip id="n1_joe6" name="n1" src="joe636" fileName="components/MovieClip1.jta" xy="-4,1" visible="false">
+      <gearDisplay controller="c1" pages="0"/>
+    </movieclip>
+    <component id="n5_joe6" name="n5" src="joe63j" fileName="components/Button1.xml" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+  </displayList>
+  <transition name="t0" options="1">
+    <item time="0" type="ColorFilter" target="n0_joe6" tween="true" startValue="0,0,0,0" endValue="1,0,0,0" duration="11"/>
+    <item time="0" type="Visible" target="n0_joe6" value="true"/>
+    <item time="0" type="Visible" target="n1_joe6" value="false"/>
+    <item time="0" type="Visible" target="n3_joe6" value="false"/>
+    <item time="12" type="ColorFilter" target="n3_joe6" tween="true" startValue="1,0,0,0" endValue="0,0,0,0" duration="13"/>
+    <item time="12" type="Visible" target="n0_joe6" value="false"/>
+    <item time="12" type="Visible" target="n1_joe6" value="true"/>
+    <item time="12" type="Visible" target="n3_joe6" value="true"/>
+    <item time="12" type="XY" target="n1_joe6" tween="true" startValue="-4,1" endValue="199,1" duration="13"/>
+    <item time="17" type="Alpha" target="n1_joe6" tween="true" startValue="1" endValue="0.1" duration="8"/>
+    <item time="24" type="Visible" target="n1_joe6" value="true"/>
+    <item time="25" type="Visible" target="n1_joe6" value="false"/>
+    <item time="25" type="Visible" target="n3_joe6" value="true"/>
+  </transition>
+</component>

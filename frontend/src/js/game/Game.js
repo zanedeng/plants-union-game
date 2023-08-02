@@ -2,11 +2,14 @@ import App from "../mvc/App";
 import { CMD_LOAD_ASSETS, CMD_REGISTER_VIEW, CMD_REMOVE_VIEW } from "./Constants";
 import RegisterViewController from "./controller/RegisterViewController";
 import RemoveViewController from "./controller/RemoveViewController";
-import MainModel from "./model/GameModel";
+import GameModel from "./model/GameModel";
+import RoleModel from "./model/RoleModel";
+import LangModel from "./model/LangModel";
 import GameView from "./view/GameView";
 import Smoothie from "../core/Smoothie";
 import LoadAssetsController from "./controller/LoadAssetsController";
 import ConnectWalletModel from "./model/ConnectWalletModel";
+import HuntModel from "./model/HuntModel";
 
 export default class GameApp extends App {
 
@@ -21,7 +24,7 @@ export default class GameApp extends App {
     this.renderer = PIXI.autoDetectRenderer({
       width: options.width !== undefined ? options.width : 760, // 指定渲染器的宽度。
       height: options.height !== undefined ? options.height : 500, // 指定渲染器的高度。
-      transparent: options.transparent !== undefined ? options.transparent : false, // 设置渲染器的背景是否透明。
+      transparent: options.transparent !== undefined ? options.transparent : true, // 设置渲染器的背景是否透明。
       antialias: options.antialias !== undefined? options.antialias : true, // 设置是否开启抗锯齿效果。
       resolution: options.resolution !== undefined? options.resolution : 1, // 指定渲染器的分辨率，可以是1或2等值。
       preserveDrawingBuffer: options.preserveDrawingBuffer !== undefined ? options.preserveDrawingBuffer: true, // 设置是否在渲染后保留绘图缓冲区。
@@ -57,10 +60,6 @@ export default class GameApp extends App {
       renderFps: renderFps,
       update: this.update.bind(this)
     });
-
-    fgui.UIConfig.defaultFont = options.defaultFont !== undefined
-      ? options.defaultFont
-      : 'SimHei, SimSun, "PingFang SC", "Noto Sans CJK Regular", "Microsoft YaHei" sans, _sans';
 
     // UI 根节点在屏幕上的适配方式有
     // `noScale`：不进行缩放，保持原始大小，可能会导致部分内容超出屏幕范围。
@@ -121,7 +120,10 @@ export default class GameApp extends App {
     this.registerController(CMD_REMOVE_VIEW, RemoveViewController);
     this.registerController(CMD_LOAD_ASSETS, LoadAssetsController);
 
-    this.registerModel(MainModel);
+    this.registerModel(GameModel);
+    this.registerModel(RoleModel);
+    this.registerModel(LangModel);
+    this.registerModel(HuntModel);
     this.registerModel(ConnectWalletModel);
 
     this.registerView(GameView, this);

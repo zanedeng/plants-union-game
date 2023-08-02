@@ -8,7 +8,7 @@
     <image id="joe65" name="连接钱包0001.png" path="/images/" disableTrim="true"/>
     <component id="joe66" name="Button1.xml" path="/" exported="true"/>
     <component id="joe6m" name="SystemPrompt.xml" path="/" exported="true"/>
-    <image id="joe6n" name="SystemPromptSkin.png" path="/images/"/>
+    <image id="joe6n" name="SystemPromptSkin.png" path="/images/" scale="9grid" scale9grid="295,114,10,91" duplicatePadding="true"/>
     <image id="joe6o" name="关闭按钮0001.png" path="/images/"/>
     <image id="joe6p" name="关闭按钮0002.png" path="/images/"/>
     <image id="joe6q" name="关闭按钮0003.png" path="/images/"/>
@@ -21,6 +21,23 @@
     <image id="joe6x" name="取消按钮0003.png" path="/images/"/>
     <component id="joe6y" name="confirm.xml" path="/" exported="true"/>
     <component id="joe6z" name="cancel.xml" path="/" exported="true"/>
+    <component id="joe610" name="numItem.xml" path="/" exported="true"/>
+    <image id="joe611" name="number0010.png" path="/images/"/>
+    <image id="joe612" name="number0009.png" path="/images/"/>
+    <image id="joe613" name="number0008.png" path="/images/"/>
+    <image id="joe614" name="number0007.png" path="/images/"/>
+    <image id="joe615" name="number0006.png" path="/images/"/>
+    <image id="joe616" name="number0005.png" path="/images/"/>
+    <image id="joe617" name="number0004.png" path="/images/"/>
+    <image id="joe618" name="number0003.png" path="/images/"/>
+    <image id="joe619" name="number0002.png" path="/images/"/>
+    <image id="joe61a" name="number0001.png" path="/images/"/>
+    <image id="joe61b" name="wanMc.png" path="/images/"/>
+    <component id="joe61c" name="smallNum.xml" path="/" exported="true"/>
+    <image id="joe61e" name="小进度条背景.png" path="/images/"/>
+    <image id="joe61f" name="小进度条高光.png" path="/images/"/>
+    <image id="joe61g" name="小进度条进度.png" path="/images/" scale="9grid" scale9grid="5,1,120,4"/>
+    <component id="joe61h" name="ProgressBar1.xml" path="/" exported="true"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

@@ -114,8 +114,8 @@ export default class View extends BaseObject {
     if (viewKey) {
       const view = viewMap.get(viewKey);
       if (view) {
-        View.viewWeakMap.delete(clazz);
-        View.viewMap.delete(viewKey);
+        viewWeakMap.delete(clazz);
+        viewMap.delete(viewKey);
         view.onRemove();
         view.viewComponent = null;
         view.eventList = null;

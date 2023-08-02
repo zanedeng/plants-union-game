@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="760,500" designImageOffsetX="-67" designImageOffsetY="-127" designImageForTest="true">
+  <displayList>
+    <image id="n4_joe6" name="n4" src="joe60" fileName="images/元件 3.png" xy="402,53" size="111,387" aspect="true">
+      <relation target="" sidePair="middle-middle,right-right"/>
+    </image>
+    <component id="n0_joe6" name="shopBtn" src="joe614" fileName="components/shopBtn.xml" xy="673,6" size="70,88" aspect="true">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n1_joe6" name="mixtureBtn" src="joe615" fileName="components/mixtureBtn.xml" xy="603,2" size="70,92" aspect="true">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n2_joe6" name="warehouseBtn" src="joe616" fileName="components/warehouseBtn.xml" xy="533,2" size="70,92" aspect="true">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n3_joe6" name="rankBtn" src="joe617" fileName="components/rankBtn.xml" xy="463,2" size="70,92" aspect="true">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n5_joe6" name="zombieHuntBtn" src="joe618" fileName="components/zombieHuntBtn.xml" xy="315,186" size="300,102" aspect="true">
+      <relation target="" sidePair="middle-middle,right-right"/>
+    </component>
+    <component id="n8_joe6" name="mineBtn" src="joe619" fileName="components/mineBtn.xml" xy="667,110" size="105,147" aspect="true">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n9_joe6" name="allianceBtn" src="joe61a" fileName="components/allianceBtn.xml" xy="673,392" size="70,90" aspect="true">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n10_joe6" name="battleBtn" src="joe61b" fileName="components/battleBtn.xml" xy="598,397" size="70,85" aspect="true">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n11_joe6" name="gardenBtn" src="joe61c" fileName="components/gardenBtn.xml" xy="523,390" size="70,92" aspect="true">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n12_joe6" name="territoryBtn" src="joe61d" fileName="components/territoryBtn.xml" xy="448,387" size="70,95" aspect="true">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n13_joe6" name="taskBtn" src="joe61e" fileName="components/taskBtn.xml" xy="373,397" size="70,85" aspect="true">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n14_joe6" name="manualBtn" src="joe61f" fileName="components/manualBtn.xml" xy="298,392" size="70,90" aspect="true">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n20_joe6" name="nightHunt" src="joe631" fileName="components/nightHunt.xml" xy="328,100"/>
+    <component id="n21_joe6" name="personalHunt" src="joe63k" fileName="components/personalHunt.xml" xy="332,303"/>
+  </displayList>
+</component>

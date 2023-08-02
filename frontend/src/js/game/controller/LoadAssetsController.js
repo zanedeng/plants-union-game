@@ -1,6 +1,6 @@
 import { loadUiAssets } from "../../assets";
 import Controller from "../../mvc/Controller";
-import { ASSETS_DICT } from "../Constants";
+import { ASSETS_DICT, TYPE_LOADED, TYPE_LOADING } from "../Constants";
 
 const assets = {
 
@@ -44,13 +44,14 @@ export default class LoadAssetsController extends Controller {
       loadUiAssets(
         assets,
         (progress) => {
-
+          this.sendEvent(TYPE_LOADING, progress)
         },
         (res) => {
           fgui.utils.AssetLoader.addResources(res);
           data.assets.forEach((pkgName) => {
             fgui.UIPackage.addPackage(pkgName);
           });
+          this.sendEvent(TYPE_LOADED);
           if (data.callback && typeof data.callback === 'function') {
             data.callback();
           }

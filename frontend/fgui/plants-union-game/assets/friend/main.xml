@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="760,500" opaque="false">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n0_joe6" name="friend" src="joe62" fileName="components/friendList.xml" xy="-189,110">
+      <gearXY controller="c1" pages="0,1" values="-189,110|5,110" tween="true"/>
+    </component>
+    <component id="n2_joe6" name="switchBtn" src="joe67" fileName="components/switchBtn.xml" xy="5,130">
+      <gearXY controller="c1" pages="0,1" values="5,130|189,130" tween="true"/>
+    </component>
+  </displayList>
+</component>

@@ -1,10 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="760,500">
+<component size="760,500" overflow="hidden" opaque="false">
   <displayList>
-    <image id="n0_joe6" name="n0" src="joe6n" fileName="images/SystemPromptSkin.png" xy="192,87" size="375,310"/>
-    <component id="n1_joe6" name="closeBtn" src="joe6r" fileName="close.xml" xy="522,135"/>
-    <text id="n2_joe6" name="msg" xy="222,177" size="305,126" fontSize="16" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="系统提示文字"/>
-    <component id="n3_joe6" name="confirmBtn" src="joe6y" fileName="confirm.xml" xy="385,325"/>
-    <component id="n4_joe6" name="cancelBtn" src="joe6z" fileName="cancel.xml" xy="282,325"/>
+    <graph id="n5_joe6" name="n5" xy="0,0" size="760,500" visible="false" blend="multiply" type="rect" lineSize="0" fillColor="#b2000000"/>
+    <image id="n0_joe6" name="n0" src="joe6n" fileName="images/SystemPromptSkin.png" xy="192,87" size="375,310" visible="false"/>
+    <component id="n1_joe6" name="closeBtn" src="joe6r" fileName="close.xml" xy="522,135" visible="false"/>
+    <text id="n2_joe6" name="msg" xy="235,188" size="280,102" visible="false" fontSize="16" color="#dda62c" align="center" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="系统提示文字"/>
+    <component id="n3_joe6" name="confirmBtn" src="joe6y" fileName="confirm.xml" xy="385,325" visible="false"/>
+    <component id="n4_joe6" name="cancelBtn" src="joe6z" fileName="cancel.xml" xy="282,325" visible="false"/>
   </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n5_joe6" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Visible" target="n0_joe6" value="true"/>
+    <item time="0" type="Visible" target="n1_joe6" value="false"/>
+    <item time="0" type="Visible" target="n2_joe6" value="false"/>
+    <item time="0" type="Visible" target="n3_joe6" value="false"/>
+    <item time="0" type="Visible" target="n4_joe6" value="false"/>
+    <item time="0" type="Visible" target="n5_joe6" value="false"/>
+    <item time="0" type="XY" target="n0_joe6" tween="true" startValue="192,-376" endValue="192,85" duration="6" ease="Bounce.InOut"/>
+    <item time="1" type="Visible" target="n5_joe6" value="true"/>
+    <item time="6" type="Visible" target="n0_joe6" value="true"/>
+    <item time="6" type="Visible" target="n1_joe6" value="true"/>
+    <item time="6" type="Visible" target="n2_joe6" value="true"/>
+    <item time="6" type="Visible" target="n3_joe6" value="true"/>
+    <item time="6" type="Visible" target="n4_joe6" value="true"/>
+    <item time="6" type="Visible" target="n5_joe6" value="true"/>
+  </transition>
+  <transition name="t1">
+    <item time="0" type="Alpha" target="n5_joe6" tween="true" startValue="1" endValue="0" duration="9"/>
+    <item time="0" type="Visible" target="n0_joe6" value="true"/>
+    <item time="0" type="Visible" target="n1_joe6" value="false"/>
+    <item time="0" type="Visible" target="n2_joe6" value="false"/>
+    <item time="0" type="Visible" target="n3_joe6" value="false"/>
+    <item time="0" type="Visible" target="n4_joe6" value="false"/>
+    <item time="0" type="Visible" target="n5_joe6" value="true"/>
+    <item time="0" type="XY" target="n0_joe6" tween="true" startValue="192,87" endValue="192,528" duration="9" ease="Back.InOut"/>
+    <item time="9" type="Visible" target="n0_joe6" value="true"/>
+    <item time="9" type="Visible" target="n1_joe6" value="false"/>
+    <item time="9" type="Visible" target="n2_joe6" value="false"/>
+    <item time="9" type="Visible" target="n3_joe6" value="false"/>
+    <item time="9" type="Visible" target="n4_joe6" value="false"/>
+    <item time="9" type="Visible" target="n5_joe6" value="false"/>
+  </transition>
 </component>

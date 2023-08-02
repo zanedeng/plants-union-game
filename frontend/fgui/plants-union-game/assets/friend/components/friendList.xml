@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="188,350">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n0_joe6" name="n0" src="joe61" fileName="images/FriendSkin.png" xy="0,0" size="188,350">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_joe6" name="nameTxt" xy="20,12" size="125,19" fontSize="12" autoSize="none" text="" input="true"/>
+    <component id="n2_joe6" name="searchBtn" src="joe6b" fileName="components/searchBtn.xml" xy="148,7"/>
+    <image id="n6_joe6" name="n6" src="joe6i" fileName="images/TAB10007.png" xy="9,35">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n3_joe6" name="n3" src="joe6j" fileName="images/TAB20007.png" xy="8,35">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <component id="n4_joe6" name="friendBtn" src="joe6k" fileName="components/Button1.xml" xy="17,34">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <component id="n5_joe6" name="allyBtn" src="joe6l" fileName="components/Button2.xml" xy="99,34">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n7_joe6" name="nextFriendPageBtn" src="joe6s" fileName="components/Button3.xml" xy="127,245"/>
+    <component id="n8_joe6" name="preFriendPageBtn" src="joe6t" fileName="components/Button4.xml" xy="38,245" size="27,28"/>
+    <text id="n9_joe6" name="pageInfoTxt" xy="76,250" size="40,19" fontSize="12" color="#ff9933" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="1/1"/>
+    <list id="n10_joe6" name="list" xy="8,64" size="170,178" overflow="scroll" autoClearItems="true">
+      <item url="ui://aueqlm9wjoe61i"/>
+      <item url="ui://aueqlm9wjoe61i"/>
+      <item url="ui://aueqlm9wjoe61i"/>
+      <item url="ui://aueqlm9wjoe61i"/>
+      <item url="ui://aueqlm9wjoe61i"/>
+      <item url="ui://aueqlm9wjoe61i"/>
+      <item url="ui://aueqlm9wjoe61i"/>
+    </list>
+    <component id="n11_joe6" name="addFriendBtn" src="joe610" fileName="components/Button5.xml" xy="35,286">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n12_joe6" name="invitedFriendBtn" src="joe611" fileName="components/Button6.xml" xy="36,286">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+  </displayList>
+</component>

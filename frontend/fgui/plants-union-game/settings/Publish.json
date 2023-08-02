@@ -26,7 +26,7 @@
     "sizeOption": "pot",
     "forceSquare": false,
     "allowRotation": false,
-    "trimImage": true
+    "trimImage": false
   },
   "include2x": false,
   "include3x": false,

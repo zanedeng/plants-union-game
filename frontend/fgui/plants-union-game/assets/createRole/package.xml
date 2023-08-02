@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="a1vifi9l">
+  <resources>
+    <image id="joe60" name="开始游戏0001.png" path="/images/"/>
+    <image id="joe61" name="开始游戏0002.png" path="/images/"/>
+    <image id="joe62" name="开始游戏0003.png" path="/images/"/>
+    <image id="joe63" name="向右0003.png" path="/images/"/>
+    <image id="joe64" name="向右0002.png" path="/images/"/>
+    <image id="joe65" name="向右0001.png" path="/images/"/>
+    <image id="joe66" name="向左0003.png" path="/images/"/>
+    <image id="joe67" name="向左0002.png" path="/images/"/>
+    <image id="joe68" name="向左0001.png" path="/images/"/>
+    <image id="joe6c" name="创建角色背景图.png" path="/images/"/>
+    <component id="joe6d" name="createRole.xml" path="/" exported="true"/>
+    <component id="joe6f" name="Button2.xml" path="/components/" exported="true"/>
+    <component id="joe6g" name="Button3.xml" path="/components/" exported="true"/>
+    <component id="joe6h" name="Button4.xml" path="/components/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

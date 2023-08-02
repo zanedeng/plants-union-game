@@ -16,6 +16,14 @@ export default class BaseVc extends fgui.GComponent {
     }
   }
 
+  initUiFromURL(url) {
+    this.ui = fgui.UIPackage.createObjectFromURL(url);
+    if (this.ui) {
+      this.addChild(this.ui);
+      this.onLoaded();
+    }
+  }
+
   $getChild(name) {
     return this.ui ? this.ui.getChild(name) : null;
   }
