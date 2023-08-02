@@ -14,10 +14,10 @@ jobs:
       run: |
         cd frontend
         npm ci
-        npm run build
+        npm run production
 
     - name: Build and Deploy
       uses: JamesIves/github-pages-deploy-action@v4.4.3
       with:
-          folder: build
+          folder: frontend/dist
           clean: true
